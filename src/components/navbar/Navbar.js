@@ -198,12 +198,12 @@ const Navbar = () => {
           </div>
           <ul className="flex space-x-4">
             <li>
-              <a href="#" className="hover:text-gray-300">
+              <a href="#" className="hover:text-green-600">
                 Help
               </a>
             </li>
             <li>
-              <Link to={"/log-in"} href="#" className="hover:text-gray-300">
+              <Link to={"/log-in"} href="#" className="hover:text-green-600">
                 Log In
               </Link>
             </li>

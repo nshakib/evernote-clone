@@ -145,18 +145,18 @@ const Home = () => {
       {/* find your evernote */}
       <section>
         <div>
-          <div className='section__header pb-10 w-3/5 mx-auto md:w-11/12'>
-            <h2 className='text-4xl mb-5 font-semibold md:text-2xl'>Find your Evernote</h2>
+          <div className='section__header pb-10 lg:w-3/5 mx-auto md:w-11/12'>
+            <h2 className='lg:text-4xl lg:mb-5 lg:font-semibold md:text-2xl'>Find your Evernote</h2>
             <p className='text-2xl mb-5 md:text-lg'>
               Whether you want to get organized, keep your personal life on
               track, or boost workplace productivity, Evernote has the right
               plan for you.
             </p>
-            <a href="c" className='text-green-600 md:hidden'>COMPARE PLANS →</a>
+            <a href="c" className='text-green-600 lg:block md:hidden'>COMPARE PLANS →</a>
           </div>
-          <div className='price__section flex space-x-4 text-left ml-24 md:ml-0 md:flex-col'>
+          <div className='price__section flex space-x-4  lg:flex-row text-left lg:ml-24 md:ml-0 md:flex-col'>
             {/* <div className='w-1/3'></div> */}
-            <div className='price__item shadow bg-gray-100 p-10 leading-9 w-96 md:w-full md:mb-8'>
+            <div className='price__item shadow bg-gray-100 p-10 leading-9 lg:w-96 md:w-full md:mb-8'>
               <h4 className='text-2xl'>FREE</h4>
               <h3 className='font-semibold text-4xl py-5'>$0</h3>
               <p className='font-medium text'>Capture ideas and find them quickly</p>
@@ -173,7 +173,7 @@ const Home = () => {
                 <a href='g' className='text-center border bg-green-600 px-5 block py-2 text-white font-medium mt-5'>Get started</a>
               </ul>
             </div>
-            <div className='price__item shadow bg-gray-100 p-10 leading-9 w-96 md:w-full md:mb-8'>
+            <div className='price__item shadow bg-gray-100 p-10 leading-9 lg:w-96 md:w-full md:mb-8'>
               <h4 className='text-2xl'>FREE</h4>
               <h3 className='font-medium py-5'><span className='font-semibold text-4xl'>$14.99</span> / MONTH</h3>
               <p className='font-medium text'>Keep home and family on track</p>
@@ -191,7 +191,7 @@ const Home = () => {
                 <a href='g' className='text-center border bg-green-600 px-5 block py-2 text-white font-medium mt-5'>Choose Personal</a>
               </ul>
             </div>
-            <div className='price__item shadow bg-gray-100 p-10 leading-9 w-96 md:w-full md:mb-8'>
+            <div className='price__item shadow bg-gray-100 p-10 leading-9 lg:w-96 md:w-full md:mb-8'>
               <h4 className='text-2xl'>PROFESSIONAL</h4>
               <h3 className='font-medium py-5'><span className='font-semibold text-4xl'>$17.99</span> / MONTH</h3>
               <p className='font-medium text'>Tackle any project, at work or at home</p>
@@ -215,7 +215,7 @@ const Home = () => {
       </section>
 
       {/* everynotes team */}
-      <section className='w-1/2 mx-auto pb-20 mt-20 md:w-11/12 md:mt-2 md:pb-16'>
+      <section className='lg:w-1/2 mx-auto lg:pb-20 mt-20 md:w-11/12 md:mt-2 md:pb-16'>
       <div className='every__notes__teams flex justify-between items-center mx-auto border-solid border-2 rounded-lg border-gray-300 shadow p-10 mt-7'>
             <div className='text-left'>
               <h2 className='text-2xl'>EVERNOTE TEAMS</h2>
